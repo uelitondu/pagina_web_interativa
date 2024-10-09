@@ -1,14 +1,34 @@
+
 body{ 
 background-color: rgb(117, 132, 146);
+font-family: Bai jamjuree;
 }
+
+#container {
+   display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
    background-color: black;
    color:aliceblue;
    position:fixed;
    bottom:0;
-width:100%;
+   width:100%;
+   height: 3rem;
 }
 footer p { 
-text-aling: center ;
+text-align: center;
+font-size: 1rem;
+margin: top 0.6rem;
 }
