@@ -1,4 +1,3 @@
-
 function criaCartao(categoria, pergunta, resposta) {
     let container = document.getElementById('container')
     let cartao = document.createElement('article')
@@ -16,14 +15,13 @@ function criaCartao(categoria, pergunta, resposta) {
     </div>
     `
 
-  let respostaEstaVísivel = false;
+    let respostaEstaVisivel = false
 
-  function viraCartao() {
-    respostaEstaVísivel = ! respostaEstaVísivel
-    cartao.classList. toggle("active", respostaEstaVísivel)
-  }
-   cartao.addEventListener("click", viraCartao)
-
+    function viraCartao() {
+        respostaEstaVisivel = !respostaEstaVisivel
+        cartao.classList.toggle('active', respostaEstaVisivel)
+    }
+    cartao.addEventListener('click', viraCartao)
 
 
     container.appendChild(cartao)
